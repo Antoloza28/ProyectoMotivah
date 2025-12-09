@@ -83,6 +83,7 @@ main h2 {
     font-size: 1.8rem;
     color:#5c7be2;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 main h3 {
@@ -253,3 +254,26 @@ nav.navbar {
 .dropdown-item:hover {
   transform: scale(1.05);
 }
+
+.card h5 {
+    color: #5c7be2;
+    justify-content: center;
+}
+
+.card-text {
+    color: #f0f8ff;
+    width: 425px;
+}
+
+.card img {
+    width: 425px;
+    height: 425px;
+    object-fit: cover;
+}
+
+.card {
+    padding-inline: 20px;
+    background-color: #000;
+    margin-inline: 20px;
+}
+

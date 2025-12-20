@@ -277,3 +277,42 @@ nav.navbar {
     margin-inline: 20px;
 }
 
+section {
+  margin-bottom: 60px;
+}
+
+h5, h6 {
+  text-align: center;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+form label {
+  color: #5c7be2;
+  font-weight: 500;
+}
+
+form .form-control {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #5c7be2;
+}
+
+form .form-control:focus {
+  background-color: #111;
+  color: #fff;
+  border-color: #82a0ff;
+  box-shadow: 0 0 5px #5c7be2;
+}
+
+button.btn-primary {
+  background-color: #5c7be2;
+  border: none;
+}
+
+button.btn-primary:hover {
+  background-color: #7e96ff;
+  color: black;
+}

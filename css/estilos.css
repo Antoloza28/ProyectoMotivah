@@ -282,8 +282,44 @@ nav.navbar {
 
 .card {
     padding-inline: 20px;
-    background-color: #000;
+    background-color: #0a0a0a;
     margin-inline: 20px;
+    border-radius: 10px;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-title {
+  text-align: center;
+  color: #5c7be2;
+}
+
+.card-text {
+  max-width: 90%;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+.accordion-button {
+  border-bottom: 1px solid #5c7be2 !important;
+}
+
+form label {
+  color: #5c7be2;
+}
+
+textarea, input {
+  border-radius: 6px !important;
 }
 
 section {
@@ -324,4 +360,8 @@ button.btn-primary {
 button.btn-primary:hover {
   background-color: #7e96ff;
   color: black;
+}
+
+.mt-2 {
+  color: #f0f8ff;
 }

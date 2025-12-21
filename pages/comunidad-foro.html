@@ -51,35 +51,126 @@
   </div>
 </nav>
     </header>
-    <main>
-      <section class="container my-5">
-        <h2 class="text-center">Comunidad Motivah</h2>
-        <p class="text-center">
-        Dejanos tu consulta o experiencia y formá parte de nuestra comunidad.
-        </p>
+    <main class="container my-5">
 
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label>Nombre</label>
-            <input type="text" required>
-           </div>
+  <!-- Encabezado -->
+  <section class="text-center mb-5">
+    <h2>Comunidad Motivah</h2>
+    <p>
+      Unite a nuestra comunidad para compartir tus experiencias, dudas, avances y motivación.
+      Estamos para acompañarte en cada paso de tu camino saludable.
+    </p>
+  </section>
 
-          <div class="col-md-6">
-            <label>Email</label>
-           <input type="email" required>
+  <!-- Tarjetas de Comunidad -->
+  <section class="row g-4 mb-5">
+
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3 bg-dark border border-primary">
+        <h5 class="mt-2">Consultas Rápidas</h5>
+        <p class="mt-2">¿Tenés una duda sobre entrenamiento, recetas o productos?  
+          Escribinos y te respondemos.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3 bg-dark border border-primary">
+        <h5 class="mt-2">Compartí tus avances</h5>
+        <p class="mt-2">Motivah es una familia. Contanos tus logros y ayudá
+          a motivar a otros con tus progresos.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3 bg-dark border border-primary">
+        <h5 class="mt-2">Inspiración diaria</h5>
+        <p class="mt-2">Accedé a contenido motivacional, hábitos saludables
+          y rutinas recomendadas.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Preguntas Frecuentes -->
+  <section class="mb-5">
+    <h3 class="text-center mb-3">Preguntas Frecuentes</h3>
+
+    <div class="accordion" id="faqComunidad">
+      <div class="accordion-item bg-dark border border-primary">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-dark text-primary" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#faq1">
+            ¿Cómo puedo unirme a la comunidad?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqComunidad">
+          <div class="accordion-body text-light">
+            Simplemente completá el formulario de abajo con tu consulta o mensaje.
           </div>
+        </div>
+      </div>
 
-          <div class="col-12">
-            <label>Mensaje</label>
-            <textarea required></textarea>
+      <div class="accordion-item bg-dark border border-primary">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-dark text-primary" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#faq2">
+            ¿Puedo compartir mis rutinas o recetas?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqComunidad">
+          <div class="accordion-body text-light">
+            ¡Claro que sí! Nos encanta que la comunidad aporte contenido saludable.
           </div>
+        </div>
+      </div>
 
-          <div class="col-12 text-center">
-            <button class="btn btn-outline-primary">Enviar</button>
+      <div class="accordion-item bg-dark border border-primary">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-dark text-primary" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#faq3">
+            ¿Cuánto tardan en responder?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqComunidad">
+          <div class="accordion-body text-light">
+            Generalmente respondemos en menos de 24 horas.
           </div>
-        </form>
-     </section>
-    </main>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section class="mt-5">
+    <h3 class="text-center mb-4">Dejanos tu consulta</h3>
+
+    <form class="row g-3 p-4 rounded bg-dark border border-primary">
+
+      <div class="col-md-6">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control bg-black text-light border border-primary" required>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control bg-black text-light border border-primary" required>
+      </div>
+
+      <div class="col-12">
+        <label class="form-label">Mensaje</label>
+        <textarea class="form-control bg-black text-light border border-primary" 
+          rows="4" required></textarea>
+      </div>
+
+      <div class="col-12 text-center">
+        <button class="btn btn-primary px-4">Enviar</button>
+      </div>
+
+    </form>
+  </section>
+
+</main>
+
     <footer>
         <a class="instagram" href="#"><img src="../img/logotipo-instagram.png" alt="Instagram">@motivah.te</a>
         <a class="tiktok" href="#"><img src="../img/logotipo-tiktok.png" alt="Tiktok">@motivah.te</a>

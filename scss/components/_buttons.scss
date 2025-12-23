@@ -1,7 +1,7 @@
 .btn-primario {
   @extend %btn-base;
   background-color: $color-primario;
-  color: white;
+  color: #fff;
 
   &:hover {
     background-color: darken($color-primario, 10%);
@@ -16,6 +16,6 @@
 
   &:hover {
     background-color: $color-primario;
-    color: white;
+    color: #fff;
   }
 }

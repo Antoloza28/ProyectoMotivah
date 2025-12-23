@@ -98,7 +98,7 @@ footer .footer-redes img:hover {
 
 .btn-primario {
   background-color: #5c7be2;
-  color: white;
+  color: #fff;
 }
 .btn-primario:hover {
   background-color: rgb(48.703125, 87.9375, 218.296875);
@@ -111,7 +111,7 @@ footer .footer-redes img:hover {
 }
 .btn-secundario:hover {
   background-color: #5c7be2;
-  color: white;
+  color: #fff;
 }
 
 .card-pilar {
@@ -193,7 +193,7 @@ footer .footer-redes img:hover {
   padding: 0.6rem 1.5rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: white;
+  color: #fff;
   background-color: #5c7be2;
   border-radius: 999px;
 }

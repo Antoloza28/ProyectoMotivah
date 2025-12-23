@@ -1,0 +1,43 @@
+.recetas-saludables {
+  padding: $spacing-lg;
+
+  h1 {
+    text-align: center;
+    margin-bottom: $spacing-lg;
+  }
+
+  .recetas-grid {
+    display: grid;
+    gap: $spacing-lg;
+
+    @media (min-width: $break-tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $break-desktop) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .receta-card {
+    @include card-base;
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: $border-radius;
+      margin-bottom: $spacing-md;
+    }
+
+    h3 {
+      margin-bottom: $spacing-sm;
+      color: $color-primario;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: $color-gris;
+    }
+  }
+}

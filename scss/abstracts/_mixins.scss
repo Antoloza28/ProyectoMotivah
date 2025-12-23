@@ -1,0 +1,26 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive-text($mobile, $desktop) {
+  font-size: $mobile;
+
+  @media (min-width: $break-tablet) {
+    font-size: $desktop;
+  }
+}
+
+@mixin card-base {
+  background-color: $color-fondo;
+  border: 1px solid $color-primario;
+  border-radius: $border-radius;
+  padding: $spacing-lg;
+  text-align: center;
+  transition: transform $transicion-base;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}

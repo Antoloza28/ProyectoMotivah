@@ -1,0 +1,12 @@
+.grid-pilares {
+  display: grid;
+  gap: $spacing-lg;
+
+  @media (min-width: $break-tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $break-desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

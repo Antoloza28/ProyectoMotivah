@@ -1,0 +1,29 @@
+// MAIN SCSS
+// Archivo principal que importa todos los parciales
+
+// Abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+
+// Components
+@import "components/buttons";
+@import "components/cards";
+@import "components/nav";
+
+// Pages
+@import "pages/index";
+@import "pages/comunidad";
+@import "pages/productos";
+@import "pages/ejercicios";
+@import "pages/recetas-saludables";
+

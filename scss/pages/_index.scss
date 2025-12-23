@@ -1,0 +1,11 @@
+.seccion-pilares {
+  margin-top: 3rem;
+
+  @media (min-width: $break-tablet) {
+    margin-top: 5rem;
+  }
+
+  @media (min-width: $break-desktop) {
+    margin-top: 7rem;
+  }
+}

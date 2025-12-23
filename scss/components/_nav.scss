@@ -1,0 +1,21 @@
+.navbar {
+  background-color: $color-fondo !important;
+
+  .navbar-brand,
+  .nav-link {
+    color: $color-texto;
+
+    &:hover {
+      color: $color-primario;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: $color-texto;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
+

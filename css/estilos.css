@@ -184,6 +184,20 @@ footer .footer-redes img:hover {
   margin-bottom: 2rem;
 }
 
+.seccion-productos {
+  margin-bottom: 4rem;
+}
+.seccion-productos .titulo-seccion {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #5c7be2;
+  border-radius: 999px;
+}
+
 .ejercicios {
   padding: 2rem;
 }

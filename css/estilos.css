@@ -250,4 +250,15 @@ footer .footer-redes img:hover {
   color: #3f3d3d;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+@media (max-width: 768px) {
+  .logo-central h1 {
+    font-size: 1.5rem;
+  }
+  .logo-central h2 {
+    font-size: 1rem;
+  }
+  .logotipo {
+    width: 70px;
+    height: auto;
+  }
+}
